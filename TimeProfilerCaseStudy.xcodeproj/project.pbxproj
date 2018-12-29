@@ -13,6 +13,7 @@
 		0C60A0AA21C536DB002F46B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C60A0A921C536DB002F46B7 /* Assets.xcassets */; };
 		0C60A0AD21C536DB002F46B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C60A0AB21C536DB002F46B7 /* LaunchScreen.storyboard */; };
 		0C60A0B821C536DB002F46B7 /* TimeProfilerCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C60A0B721C536DB002F46B7 /* TimeProfilerCaseStudyTests.swift */; };
+		0C60A0C321C53701002F46B7 /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C60A0C221C53701002F46B7 /* ViewPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0C60A0B321C536DB002F46B7 /* TimeProfilerCaseStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeProfilerCaseStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C60A0B721C536DB002F46B7 /* TimeProfilerCaseStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeProfilerCaseStudyTests.swift; sourceTree = "<group>"; };
 		0C60A0B921C536DB002F46B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C60A0C221C53701002F46B7 /* ViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0C60A0A221C536D9002F46B7 /* AppDelegate.swift */,
+				0C60A0C221C53701002F46B7 /* ViewPresenter.swift */,
 				0C60A0A421C536D9002F46B7 /* ViewController.swift */,
 				0C60A0A621C536D9002F46B7 /* Main.storyboard */,
 				0C60A0A921C536DB002F46B7 /* Assets.xcassets */,
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C60A0C321C53701002F46B7 /* ViewPresenter.swift in Sources */,
 				0C60A0A521C536D9002F46B7 /* ViewController.swift in Sources */,
 				0C60A0A321C536D9002F46B7 /* AppDelegate.swift in Sources */,
 			);
